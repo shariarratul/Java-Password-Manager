@@ -6,7 +6,7 @@ It generates & saves your website credentials (Website, Email, Password) into a 
 ---
 
 ## 🚀 How it Works:
-- 1. Generate a random password. 2. See Your Saved Passwords.
+- Options: 1. Generate a random password 2.See Your Saved Passwords.
 - Prompts you for **Website**, **Email**, and **Password Length** and generates a strong password.
 - Saves passwords in `savedpass.txt` inside your AppData folder (e.g., `C:\Users\<USERNAME>\AppData\Local`).
 - Example format: **example.com,user@example.com,pFQi2R_c7zs8**
