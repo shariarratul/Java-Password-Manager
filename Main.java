@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         int option = 0;
         while(option!=3){
-            System.out.println("\n\nMenu: ");
+            System.out.println("\n\n====Java Passwords Manager====");
             System.out.println("1. Generate New Password ");
             System.out.println("2. View Saved Passwords ");
             System.out.println("3. Exit Program..");
@@ -36,7 +36,7 @@ public class Main {
 
     public static void genPass(){
         Scanner sc = new Scanner(System.in);
-        System.out.println("\nGenerate new Password:\n");
+        System.out.println("\n===Generate new Password:===\n");
 
         System.out.print("Website:  ");
         String website = sc.nextLine();
