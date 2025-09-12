@@ -8,7 +8,7 @@ public class StoredPasswords {
     String passPath = appData+"\\savedpass.txt";
     public void showSavedPasswords(){
         try(BufferedReader reader = new BufferedReader(new FileReader(passPath))){
-            System.out.println("\nYour Saved Passwords:");
+            System.out.println("\n===Your Saved Passwords===");
             // Peek the first line
             if (!reader.ready()) {
                 System.out.println("No Saved Passwords! ");
@@ -38,3 +38,4 @@ public class StoredPasswords {
     }
 
 }
+
