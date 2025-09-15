@@ -14,20 +14,17 @@ public class Main {
             sc.nextLine();
 
             switch(option) {
-                case 1:
+                case 1->{
                     clearScreen();
                     genPass();
-                    break;
-                case 2:
+                }
+                case 2->{
                     clearScreen();
                     StoredPasswords SP = new StoredPasswords();
                     SP.showSavedPasswords();
-                    break;
-                case 3:
-                    System.out.println("Exiting Program...");
-                    break;
-                default:
-                    System.out.println("invalid option!");
+                }
+                case 3-> System.out.println("Exiting Program...");
+                default-> System.out.println("invalid option!");
             }
         }
 
